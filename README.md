@@ -20,3 +20,7 @@ How To Run
 ``
  npx cypress open
 ``
+
+``
+ npx cypress run .\cypress\integration\demo.spec.js
+``
