@@ -22,5 +22,10 @@ How To Run
 ``
 
 ``
- npx cypress run .\cypress\integration\demo.spec.js
+ npx cypress run .\cypress\e2e\demo.cy.js --headed
 ``
+
+``
+ npx cypress run .\cypress\e2e\demo.cy.js
+``
+

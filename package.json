@@ -1,0 +1,23 @@
+{
+  "name": "Cypress",
+  "version": "1.0.0",
+  "description": "Some VS Code User Shortcut\r --------------------------\r - Shift+Alt+F (To indent user code)\r - Click to File -> Auto Save (For saving your code automatically)\r - Ctrl+/ (To comment Your Code)\r - Shift+Tab (To reverse Tab)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Md-Soliman-Ali/Cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Md-Soliman-Ali/Cypress/issues"
+  },
+  "homepage": "https://github.com/Md-Soliman-Ali/Cypress#readme",
+  "dependencies": {
+    "cypress": "^10.4.0"
+  }
+}
