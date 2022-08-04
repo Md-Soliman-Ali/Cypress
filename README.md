@@ -15,6 +15,18 @@ Install Following Package
  npm i cypress
 ``
 
+``
+npm install cypress-xpath
+``
+
+``
+npm install cypress-downloadfile
+``
+
+``
+npm install --save-dev cypress-file-upload
+``
+
 How To Run
 ----------
 ``

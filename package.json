@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/Md-Soliman-Ali/Cypress#readme",
   "dependencies": {
-    "cypress": "^10.4.0"
+    "cypress": "^10.4.0",
+    "cypress-downloadfile": "^1.2.2",
+    "cypress-xpath": "^2.0.1"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
   }
 }
