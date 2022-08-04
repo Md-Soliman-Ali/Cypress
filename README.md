@@ -12,7 +12,7 @@ Install Following Package
 ``
 
 ``
- npm i cypress@9.0.0
+ npm i cypress
 ``
 
 How To Run
