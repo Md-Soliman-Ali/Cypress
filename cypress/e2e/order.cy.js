@@ -26,4 +26,4 @@ describe('Order Product', () => {
         cy.wait(5000);
         cy.xpath("//span[normalize-space()='Proceed to checkout']").click();
     })
-})
+}) 
