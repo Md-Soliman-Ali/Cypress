@@ -4,7 +4,8 @@
   "description": "Some VS Code User Shortcut\r --------------------------\r - Shift+Alt+F (To indent user code)\r - Click to File -> Auto Save (For saving your code automatically)\r - Ctrl+/ (To comment Your Code)\r - Shift+Tab (To reverse Tab)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure serve allure-results"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,12 @@
   },
   "homepage": "https://github.com/Md-Soliman-Ali/Cypress#readme",
   "dependencies": {
+    "allure-commandline": "^2.18.1",
     "cypress": "^10.4.0",
     "cypress-downloadfile": "^1.2.2",
     "cypress-iframe": "^1.0.1",
-    "cypress-xpath": "^2.0.1"
+    "cypress-xpath": "^2.0.1",
+    "mocha-allure-reporter": "^1.4.0"
   },
   "devDependencies": {
     "cypress-file-upload": "^5.0.8"

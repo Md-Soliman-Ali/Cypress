@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659686998815' stop='1659687097267'>
+    <name>Account Signup</name>
+    <title>Account Signup</title>
+    <test-cases>
+        <test-case start='1659686998816' status='passed' stop='1659687062129'>
+            <name>Click on signin button</name>
+            <title>Click on signin button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659687062144' status='passed' stop='1659687062665'>
+            <name>Register New Account</name>
+            <title>Register New Account</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659687062676' status='passed' stop='1659687097256'>
+            <name>Fillup Form And Register</name>
+            <title>Fillup Form And Register</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

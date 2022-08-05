@@ -31,6 +31,14 @@ npm install --save-dev cypress-file-upload
 npm install cypress-downloadfile
 ``
 
+``
+npm install allure-commandline
+``
+
+``
+npm install mocha-allure-reporter
+``
+
 Import Following Support (Commands.js)
 ---------------------------------------
 ``
@@ -56,10 +64,19 @@ How To Run
 ``
 
 ``
- npx cypress run .\cypress\e2e\demo.cy.js --headed --browser firefox
-``
-
-``
  npx cypress run .\cypress\e2e\demo.cy.js
 ``
 
+``
+ npx cypress run --spec .\cypress\e2e\demo.cy.js --headed --browser firefox
+``
+
+Run The Allure
+--------------
+``
+ npx cypress run --spec .\cypress\e2e\signup.cy.js --headless --browser electron --reporter mocha-allure-reporter 
+``
+
+``
+npm run report:allure
+``

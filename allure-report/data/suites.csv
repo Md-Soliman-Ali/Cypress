@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 05 14:09:58 BDT 2022","Fri Aug 05 14:11:02 BDT 2022","63313","","Account Signup","","Account Signup","Click on signin button","Click on signin button",""
+"passed","Fri Aug 05 14:11:02 BDT 2022","Fri Aug 05 14:11:37 BDT 2022","34580","","Account Signup","","Account Signup","Fillup Form And Register","Fillup Form And Register",""
+"passed","Fri Aug 05 14:11:02 BDT 2022","Fri Aug 05 14:11:02 BDT 2022","521","","Account Signup","","Account Signup","Register New Account","Register New Account",""
