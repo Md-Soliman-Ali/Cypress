@@ -56,7 +56,7 @@ How To Run
 ``
 
 ``
- npx cypress run .\cypress\e2e\demo.cy.js --headed
+ npx cypress run .\cypress\e2e\demo.cy.js --headed --browser firefox
 ``
 
 ``
