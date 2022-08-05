@@ -71,6 +71,12 @@ How To Run
  npx cypress run --spec .\cypress\e2e\demo.cy.js --headed --browser firefox
 ``
 
+Add Scripts (package.json)
+--------------------------
+``
+"report:allure": "allure generate allure-results --clean -o allure-report && allure serve allure-results"
+``
+
 Run The Allure
 --------------
 ``
