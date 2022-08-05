@@ -20,6 +20,7 @@
   "dependencies": {
     "cypress": "^10.4.0",
     "cypress-downloadfile": "^1.2.2",
+    "cypress-iframe": "^1.0.1",
     "cypress-xpath": "^2.0.1"
   },
   "devDependencies": {

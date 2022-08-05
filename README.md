@@ -20,11 +20,33 @@ npm install cypress-xpath
 ``
 
 ``
-npm install cypress-downloadfile
+npm install cypress-iframe
 ``
 
 ``
 npm install --save-dev cypress-file-upload
+``
+
+``
+npm install cypress-downloadfile
+``
+
+Import Following Support (Commands.js)
+---------------------------------------
+``
+import 'cypress-file-upload';
+``
+
+``
+import 'cypress-iframe';
+``
+
+Import Following Support (e2e.js)
+---------------------------------
+``
+Cypress.on('uncaught:exception', (err, runnable) => {
+    return false
+})
 ``
 
 How To Run
