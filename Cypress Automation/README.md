@@ -16,7 +16,6 @@ npm i cypress-mochawesome-reporter
 
 Change Cypress Reporter & Setup Hooks
 -------------------------------------
-``
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
@@ -27,7 +26,6 @@ module.exports = defineConfig({
     },
   },
 });
-``
 
 Update support/e2e.js
 ---------------------
